@@ -1,3 +1,10 @@
+/*
+ * Bismillah
+ * Saya Themy Sabri Syuhada dengan NIM 2203903
+ * Dengan ini saya menyatakan bahwa mengerjakan latihan praktikum 7 
+ * dengan sejujur-jujurnya seperti yang telah dispesifikasikan
+ * Aamiin
+ */
 
 import java.awt.*;
 

@@ -1,14 +1,21 @@
+/*
+ * Bismillah
+ * Saya Themy Sabri Syuhada dengan NIM 2203903
+ * Dengan ini saya menyatakan bahwa mengerjakan latihan praktikum 7 
+ * dengan sejujur-jujurnya seperti yang telah dispesifikasikan
+ * Aamiin
+ */
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class App extends JFrame{
+public class App extends JFrame {
     private JButton startButton;
     private JButton exitButton;
     private JPanel mainPanel;
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         App window = new App();
         window.setSize(360, 640);
         window.setLocationRelativeTo(null);
@@ -17,8 +24,7 @@ public class App extends JFrame{
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
-    public App()
-    {
+    public App() {
         startButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -33,8 +39,7 @@ public class App extends JFrame{
         });
     }
 
-    public void startApp()
-    {
+    public void startApp() {
         JFrame frame = new JFrame("Flappy Bird");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(360, 640);

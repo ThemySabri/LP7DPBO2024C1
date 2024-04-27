@@ -1,3 +1,11 @@
+/*
+ * Bismillah
+ * Saya Themy Sabri Syuhada dengan NIM 2203903
+ * Dengan ini saya menyatakan bahwa mengerjakan latihan praktikum 7 
+ * dengan sejujur-jujurnya seperti yang telah dispesifikasikan
+ * Aamiin
+ */
+
 import java.awt.*;
 
 public class Player {
@@ -8,9 +16,7 @@ public class Player {
     private Image image;
     private int velocityY;
 
-
-    public Player(int posX, int posY, int width, int height, Image image)
-    {
+    public Player(int posX, int posY, int width, int height, Image image) {
         this.posX = posX;
         this.posY = posY;
         this.width = width;
@@ -19,6 +25,7 @@ public class Player {
 
         this.velocityY = -0;
     }
+
     public int getPosX() {
         return posX;
     }
